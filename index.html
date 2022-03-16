@@ -3,8 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
@@ -13,23 +11,24 @@
     />
     <link rel="stylesheet" href="/main.css" />
     <title>Frontend Mentor | Sunnyside agency landing page</title>
-
   </head>
   <body>
     <header>
       <nav class="navbar">
         <div class="brand-title"><img src="/images/logo.svg" alt="" /></div>
-        <a href="#" class="toggle-button">
+        <a href="#" aria-label="toggle button" class="toggle-button">
           <img src="/images/icon-hamburger.svg" alt="logo" />
         </a>
 
         <div class="navbar-links">
           <div class="triangle"></div>
           <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Projects</a></li>
-            <li id="contact"><a href="#">Contact</a></li>
+            <li><a href="#" aria-label="link to about page">About</a></li>
+            <li><a href="#" aria-label="link to services page">Services</a></li>
+            <li><a href="#" aria-label="link to projects page">Projects</a></li>
+            <li id="contact">
+              <a href="#" aria-label="link to contact page">Contact</a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -39,7 +38,7 @@
         <img id="arrow-down" src="/images/icon-arrow-down.svg" alt="arrow" />
       </div>
     </header>
-    <div class="main">
+    <main class="main">
       <div class="text">
         <h1>Transform your brand</h1>
         <p>
@@ -47,7 +46,7 @@
           grow fast. Engage your clients through compelling visuals that do most
           of the marketing for you.
         </p>
-        <a id="orange" href="#">Learn more</a>
+        <a id="orange" href="#" aria-label="link to learn more ">Learn more</a>
       </div>
       <div class="img" id="img-transform">
         <img src="/images/desktop/image-transform.jpg" alt="transform" />
@@ -62,12 +61,17 @@
           photographers, videographers, and copywriters, we’ll build and extend
           your brand in digital places.
         </p>
-        <a id="pink" href="#">Learn more</a>
+        <a id="pink" href="#" aria-label="link to learn more about methods"
+          >Learn more</a
+        >
       </div>
-    </div>
+    </main>
     <div class="grid-bottom">
       <div class="left-bottom">
-        <img src="/images/desktop/image-graphic-design.jpg" alt="graphic-design" />
+        <img
+          src="/images/desktop/image-graphic-design.jpg"
+          alt="graphic-design"
+        />
         <div class="bottom-text">
           <h1>Graphic design</h1>
           <p>
@@ -122,7 +126,10 @@
     </div>
     <div class="images-gallery">
       <div class="img">
-        <img src="/images/desktop/image-gallery-milkbottles.jpg" alt="milkbottles" />
+        <img
+          src="/images/desktop/image-gallery-milkbottles.jpg"
+          alt="milkbottles"
+        />
       </div>
       <div class="img">
         <img src="/images/desktop/image-gallery-orange.jpg" alt="orange" />
@@ -131,7 +138,10 @@
         <img src="/images/desktop/image-gallery-cone.jpg" alt="cone" />
       </div>
       <div class="img">
-        <img src="/images/desktop/image-gallery-sugarcubes.jpg" alt="sugarcubes" />
+        <img
+          src="/images/desktop/image-gallery-sugarcubes.jpg"
+          alt="sugarcubes"
+        />
       </div>
     </div>
     <footer>
@@ -144,10 +154,10 @@
         <a href="#">Projects</a>
       </div>
       <div class="footer-socialmedia">
-        <a href=""><img src="/images/icon-facebook.svg" alt="facebook" /></a>
-        <a href=""><img src="/images/icon-instagram.svg" alt="instagram" /></a>
-        <a href=""><img src="/images/icon-twitter.svg" alt="twitter" /></a>
-        <a href=""><img src="/images/icon-pinterest.svg" alt="pinterest" /></a>
+        <a href="#"><img src="/images/icon-facebook.svg" alt="facebook" /></a>
+        <a href="#"><img src="/images/icon-instagram.svg" alt="instagram" /></a>
+        <a href="#"><img src="/images/icon-twitter.svg" alt="twitter" /></a>
+        <a href="#"><img src="/images/icon-pinterest.svg" alt="pinterest" /></a>
       </div>
     </footer>
 
